@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="container-small">
+        <h2 class="title">Witryna internetowa</h2> 
+    </div>
+    <header class="header">
+        <h1 class="ttl">Efekty na obrazach</h1>
+    </header>
+    <main class="main container">
+        <div class="blok">
+            <img id="image1" src="images/pszczola.jpg" alt="pszczoła na fioletowym kwiatku">
+            <form>
+                <input id="blur" type="radio" name="opcji" value="blur">Blur
+                <input id="sepia" type="radio" name="opcji" value="sepia">Sepia
+                <input id="negatyw" type="radio" name="opcji" value="negatyw">Negatyw
+            </form>
+              <button class="btn"><a href="#">Zastosuj</a></button>
+        </div>
+
+        <div class="blok">
+            <img src="images/pomarancza.jpg" alt="drzewo pomarańczy">
+
+            <div class="buttons">
+                <button class="btn"><a href="#">Kolorowy</a></button>
+                <button class="btn"><a href="#">Czarno-biały</a></button>
+            </div>
+        </div>
+
+        <div class="blok">
+            <img src="images/owoce.jpg" alt="Kosz pełen owoców">
+            <input class="suwak" type="range" name="suwak" min="0" max="100" value="100">
+            <button class="btn"><a href="#">Zastosuj</a></button>
+        </div>
+
+        <div class="blok">  
+            <img src="images/zolw.jpg" alt="Żółw  wodzie">
+            <input class="suwak" type="range" name="suwak" min="0" max="250">
+            <button class="btn"><a href="#">Zastosuj</a></button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="link"><a href="http://www.css.com/" target="_blank" class="link">Zobacz inne efekty obrazu</a></p>
+        <p class="txt">Stroę wykonała: Sofia Neviarovich</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
